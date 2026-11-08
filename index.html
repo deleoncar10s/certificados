@@ -32,7 +32,7 @@ dt{color:var(--muted)}dd{margin:0;font-weight:600}
 <main><div class="card" id="out"><p>Verificando…</p></div></main>
 <script>
 //CRYPTO
-var REG=/*REG*/[]/*END*/;
+var REG=/*REG*/[{"i":"d95019cbd66c3050efa5ee5ad485a406eb9e9e62d681a9250440dff83dd14b23","v":"vzlLlkiIDK6dTxgJ8njEAYKCJDA5zSJg0hJA5uJzlX2DZwgi/Y1oDHWHGY/J+usLWUVSwFZlASycuxmvvd2oDdwZ2DgoVG7yHhumauYkkgumcg+tcM47NroHSc0hgrQw7AL3o0utW8zmk+VaKU6/DHcXzYD6rz/7GNa4R+esuT6bDs6Wnbmz+w=="},{"i":"fa7462d772507827414fce28ca9541b171343ddb9250a98b071a5d1919e2242c","v":"anbUvdFjD+Pdx7Aqou4qCf7qNx1NS3TnqdIsg9UaK8/NSdUhTUPpCE+Ih9OH5ziwvo43CDH4eLbMwcYxJTmHG19D+GVYBnO7PLf+4FhOku0m05rZPlIYT++Me4Dddk2vIbtTs19gzC4ZXcp3dYnSBE9R46OzuiiSncqFR+g="},{"i":"79e8410ecf0e8414ddd55678eff28805414242e4cdc320d42b16223678fb3e55","v":"4s0ZEGaEKR/qGwyW48k7OFnLqjipOF3rGBtFetiep7PMQVdp0SPAIewtsOHeLFzi6HVNiLY3tPzcQCz6n1ltx8BI4872pslEsaZl1K5+pvdXpb1fcbhIDLaSY/xo/epmKbc7fAEdfpHCkC0b8ZvG/FvdA8sp4DGU+Hhbow07BmkvGqs3wwz8U0k="}]/*END*/;
 var enc=function(s){return new TextEncoder().encode(s)};
 function hex(buf){return Array.prototype.map.call(new Uint8Array(buf),function(b){return ('0'+b.toString(16)).slice(-2)}).join('')}
 function unb64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
